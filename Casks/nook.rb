@@ -13,6 +13,11 @@ cask "nook" do
 
   app "Nook.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Nook.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/Nook",
     "~/Library/Preferences/com.itsmejay.nook.plist",
