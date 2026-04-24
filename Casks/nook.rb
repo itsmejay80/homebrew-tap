@@ -3,8 +3,7 @@ cask "nook" do
 
   arch arm: "arm64", intel: "x64"
 
-  url "https://github.com/itsmejay80/nook/releases/download/v#{version}/Nook-#{version}-#{arch}.dmg",
-      verified: "github.com/itsmejay80/nook/"
+  url "https://github.com/itsmejay80/nook/releases/download/v#{version}/Nook-#{version}-#{arch}.dmg"
   name "Nook"
   desc "Local-first, spatial workboard desktop app"
   homepage "https://github.com/itsmejay80/nook"
