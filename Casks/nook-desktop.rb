@@ -1,4 +1,4 @@
-cask "nook" do
+cask "nook-desktop" do
   version "0.1.8"
 
   on_arm do
