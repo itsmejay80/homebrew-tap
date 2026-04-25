@@ -1,5 +1,5 @@
 cask "nook" do
-  version "0.1.6"
+  version "0.1.7"
 
   arch arm: "arm64", intel: "x64"
 
@@ -8,8 +8,8 @@ cask "nook" do
   desc "Local-first, spatial workboard desktop app"
   homepage "https://github.com/itsmejay80/nook"
 
-  sha256 arm:   "aad793756d450c5659212962a004b4a79163aa9b50f89210d2c711e555434d83",
-         intel: "6ea84a2bd1367d354d2eed3c6eb35bf567b95119fceca714810ad7c57a3b6421"
+  sha256 arm:   "b2efb74fc3631fa5899ef07f736fcf79b38380888dd6d6191fa4db76425af542",
+         intel: "19b05fc3d1291fcd8cb345ce241af9d0b83894b4d94fb7ccdc29e4555b31dd1e"
 
   app "Nook.app"
 
