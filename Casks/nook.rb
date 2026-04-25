@@ -1,13 +1,13 @@
 cask "nook" do
-  version "0.1.7"
+  version "0.1.8"
 
   on_arm do
-    sha256 "b2efb74fc3631fa5899ef07f736fcf79b38380888dd6d6191fa4db76425af542"
+    sha256 "ead7ffbb288402ec7dc49b64a988f49155e7a0ce82d9c9cb2b1294bb8a8cea35"
     url "https://github.com/itsmejay80/nook/releases/download/v#{version}/Nook-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "19b05fc3d1291fcd8cb345ce241af9d0b83894b4d94fb7ccdc29e4555b31dd1e"
+    sha256 "510592b5dab40836bf92021a268fb29e0b9b79c3ece180d6fb25c9aeab2c760b"
     url "https://github.com/itsmejay80/nook/releases/download/v#{version}/Nook-#{version}-x64.dmg"
   end
 
